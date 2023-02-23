@@ -1,8 +1,4 @@
 //const { response } = require("express")
-
-console.log("Client side files")
-
-
 const weatherform = document.querySelector('form')
 const search = document.querySelector('input')
 const responseOne = document.querySelector('#response1')
@@ -28,5 +24,4 @@ fetch('http://localhost:3000/weather?address='+location).then((response)=>{
     })
 
 })
-console.log('testing')
 })
